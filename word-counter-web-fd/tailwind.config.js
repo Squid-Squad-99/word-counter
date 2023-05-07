@@ -10,8 +10,8 @@ export default {
 					2: '#AC8B67'
 				},
 				complementary: {
-					1: '#F59E0B',
-					2: '#009751'
+					1: '#00D7A8',
+					2: '#009D75'
 				}
 			},
 			fontFamily: {

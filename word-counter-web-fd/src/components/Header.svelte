@@ -1,19 +1,25 @@
 <script>
 	import { APP_NAME } from '../constants';
+	import HeaderLink from './HeaderLink.svelte';
 </script>
 
-<header class=" px-16 py-6">
+<header class=" px-24 py-6">
 	<nav class=" flex flex-wrap items-center justify-between">
 		<div class=" flex items-center">
-			<a href="/" class=" font-bold">
+			<a href="/" class=" font-fashion font-bold text-xl flex items-center">
+				<img src="/logo.png" alt="Logo" class="w-16 h-16 mr-2 -translate-y-2" />
 				{APP_NAME}
 			</a>
 		</div>
 
 		<div class="hidden lg:block">
-			<ul class="flex">
-				<li><a href="/about" class="px-4 py-2 hover:bg-gray-700 font-sans">About</a></li>
-				<li><a href="/contact" class="px-4 py-2 hover:bg-gray-700">Contact</a></li>
+			<ul class="flex gap-6">
+				<li>
+					<HeaderLink href="/about" title="About" />
+				</li>
+				<li>
+					<HeaderLink href="/contact" title="Contact" />
+				</li>
 			</ul>
 		</div>
 	</nav>
