@@ -13,6 +13,11 @@ export default {
 					1: '#F59E0B',
 					2: '#009751'
 				}
+			},
+			fontFamily: {
+				fashion: ['Syncopate', 'sans-serif'],
+				heading: ['Poppins', 'sans-serif'],
+				body: ['Roboto', 'sans-serif']
 			}
 		}
 	},
